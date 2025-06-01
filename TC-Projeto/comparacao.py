@@ -11,10 +11,8 @@ def extrair_valor(caminho, chave):
 
         # Localiza a linha com a chave ("Media" ou "DesvioPadrao")
         for i, row in df.iterrows():
-            if str(row[0]).strip().lower() == chave.lower():
-                return float(row[1])
-        print(f"[ERRO] '{chave}' não encontrado em {caminho}.")
-        return None
+            if str(row.iloc[0]).strip().lower() == chave.lower():
+                return float(row.iloc[1])
 
     except Exception as e:
         print(f"[ERRO] ao ler {caminho}: {e}")
