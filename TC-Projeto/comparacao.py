@@ -25,9 +25,9 @@ entradas = [6, 13, 20]
 
 # Tempos médios
 tempos_c = [
-    extrair_valor("output/tempos_pequena_c.csv", "Media"),
-    extrair_valor("output/tempos_media_c.csv", "Media"),
-    extrair_valor("output/tempos_grande_c.csv", "Media"),
+    extrair_valor("TC-Projeto/output/tempos_pequena_c.csv", "Media"),
+    extrair_valor("TC-Projeto/output/tempos_media_c.csv", "Media"),
+    extrair_valor("TC-Projeto/output/tempos_grande_c.csv", "Media"),
 ]
 
 tempos_py = [
@@ -38,9 +38,9 @@ tempos_py = [
 
 # Desvios padrão
 desvios_c = [
-    extrair_valor("output/tempos_pequena_c.csv", "DesvioPadrao"),
-    extrair_valor("output/tempos_media_c.csv", "DesvioPadrao"),
-    extrair_valor("output/tempos_grande_c.csv", "DesvioPadrao"),
+    extrair_valor("TC-Projeto/output/tempos_pequena_c.csv", "DesvioPadrao"),
+    extrair_valor("TC-Projeto/output/tempos_media_c.csv", "DesvioPadrao"),
+    extrair_valor("TC-Projeto/output/tempos_grande_c.csv", "DesvioPadrao"),
 ]
 
 desvios_py = [
